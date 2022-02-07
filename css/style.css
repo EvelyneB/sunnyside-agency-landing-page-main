@@ -773,7 +773,7 @@ body {
   }
 }
 
-@media (max-width: 1440px) {
+@media (min-width: 1440px) and (max-width: 1920px) {
   .learn-yellow::after,
   .learn-red::after {
     width: 9rem;

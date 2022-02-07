@@ -732,14 +732,14 @@ background: url("../images/mobile/image-graphic-design.jpg") no-repeat;
 
 }
 
-@media (max-width:1440px){
+@media (min-width:1440px) and (max-width:1920px){
 .learn-yellow::after,
 .learn-red::after{
 width: 9rem;
 }}
 
 
-    @media (max-width:280px){
+@media (max-width:280px){
         .p-background,
         .p{
             font-size:0.8rem
