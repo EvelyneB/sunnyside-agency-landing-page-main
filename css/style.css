@@ -42,6 +42,7 @@ body {
   width: 17rem;
   display: none;
   position: absolute;
+  text-decoration: none;
   top: 5rem;
   left: 0;
   right: 0;
@@ -662,15 +663,6 @@ body {
     top: 0rem;
     height: 25rem;
     padding: 0rem;
-  }
-  #h2 {
-    text-align: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
   }
   .avatar-desktop {
     display: -ms-grid;

@@ -70,6 +70,7 @@ body{
     width: 17rem;
     display: none;
     position: absolute;
+    text-decoration: none;
     top: 5rem;
     left: 0;
     right: 0;
@@ -615,12 +616,7 @@ background: url("../images/mobile/image-graphic-design.jpg") no-repeat;
             
         }
 
-        #h2{
-            text-align: center;
-            @include flex-center;
-        }
-
-        .avatar-desktop{
+            .avatar-desktop{
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
             grid-template-rows: 1fr;
